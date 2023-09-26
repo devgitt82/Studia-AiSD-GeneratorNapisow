@@ -22,7 +22,6 @@ wstawienie do rejestru r napisu zawierającego na przemian znaki z r i s, gdy za
 r i s oznaczają rejestry (jedną z liter od A do Z), w każdym poleceniu r będzie różne od s. Napisami będą ciągi znaków składające się z liter (dużych i małych), cyfr, nawiasów, podkreślnika (_) lub operatorów +, -, *, /. Zaraz po uruchomieniu wszystkie rejestry przechowują puste napisy. 
 
 **Program implementujący Generator Napisów Cyklicznych. -  Zadanie  z przedmiotu AiSD na drugim semestrze studiów, programowanie proceduralne bez STL.**
----
 
 **Wejście**
 ---
