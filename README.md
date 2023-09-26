@@ -1,6 +1,6 @@
 # Generator napisów cyklicznych.
 
-Generator Napisów Cyklicznych jest programowalnym urządzeniem do generowania napisów. Posiada 26 rejestrów, oznaczonych literami od A do Z. Każdy z nich przechowuje jeden napis. Zbiór poleceń dla generatora jest następujący:
+> Generator Napisów Cyklicznych jest programowalnym urządzeniem do generowania napisów. Posiada 26 rejestrów, oznaczonych literami od A do Z. Każdy z nich przechowuje jeden napis. Zbiór poleceń dla generatora jest następujący:
 ZERUJ r
 usunięcie zawartości rejestru r
 WYPISZ r
@@ -28,19 +28,19 @@ r i s oznaczają rejestry (jedną z liter od A do Z), w każdym poleceniu r będ
 **Wejście**
 ---
 
-Na wejściu podane będą polecenia dla generatora.
+> Na wejściu podane będą polecenia dla generatora.
 
 **Wyjście**
 ---
     
-Na wyjściu należy wypisać kolejne wyniki operacji WYPISZ.
+> Na wyjściu należy wypisać kolejne wyniki operacji WYPISZ.
 
 **Przykłady**
 ---
 
 
 **Wejście**
-<code>
+```
 USTAW A ABCDEF
 WYPISZ A
 PRZESUN A 2
@@ -69,11 +69,11 @@ WYPISZ A
 SKOPIUJ B A
 DOKLEJ A B
 WYPISZ A
-</code>
+```
 
 **Wyjście**
 
-<code>
+```
 ABCDEF
 CDEFAB
 FAB
@@ -85,4 +85,4 @@ BAF
 **
 ****
 ********
-</code>
+```
